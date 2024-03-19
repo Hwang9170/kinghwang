@@ -1,0 +1,131 @@
+ /* PC 및 모바일용 공통 스타일 */
+ .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+img {
+  max-width: 100%; /* 이미지를 부모 요소에 맞게 조정 */
+  height: auto; /* 가로 세로 비율 유지 */
+}
+
+#blackbg {
+  margin-bottom: 20px; /* 컨텐츠 간격 조정 */
+}
+
+/* 모바일용 스타일 */
+@media (max-width: 768px) {
+ 
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+#olo{
+  text-align: center;
+}
+#hwang {
+  background-color: #0e0970;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bold;
+}
+#hwang nav {
+  display: flex;
+  justify-content: center;
+}
+#hwang a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+#hwang a:not(:last-child) {
+  margin-right: 10px;
+}
+#hwang a:hover {
+  color: #ffd700;
+}
+#blackbg {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(74, 45, 45, 0.1);
+  text-align: center;
+  max-width: 600px; /* 게시판 영역의 최대 너비 설정 */
+      margin: 0 auto; /* 가운데 정렬 */
+}
+#blackbg h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  color: #333;
+}
+#message-form {
+  margin-bottom: 20px;
+}
+#message-form input[type="text"],
+#message-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#message-form textarea {
+  resize: vertical;
+}
+#message-form input[type="submit"] {
+  background-color: #a89de6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+#message-form input[type="submit"]:hover {
+  background-color: #1403b0;
+}
+#messages {
+  text-align: left;
+  max-width: 600px; /* 메시지 영역의 최대 너비 설정 */
+      margin: 0 auto; /* 가운데 정렬 */
+}
+.message {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  word-wrap: break-word; /* 긴 텍스트가 넘칠 경우 줄 바꿈 처리 */
+}
+.message p {
+  margin: 5px 0;
+}
+.author {
+  font-weight: bold;
+}
+
+#footer1 {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
