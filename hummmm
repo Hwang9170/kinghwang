@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #1d1d1d 3px solid;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+    #main-doc {
+      margin: 20px auto;
+      width: 80%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+
+    .project {
+      border-bottom: 1px solid #ccc;
+      padding: 20px 0;
+    }
+
+    .project:last-child {
+      border-bottom: none;
+    }
+
+    .project h3 {
+      color: #333;
+    }
+
+    .project p {
+      color: #777;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="main-doc">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio! I'm a passionate web developer with experience in HTML, CSS, and JavaScript. I love building responsive and user-friendly websites.</p>
+    </div>
+
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1: Personal Website</h3>
+        <p>A personal website showcasing my skills and projects. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2: Online Store</h3>
+        <p>An online store for selling various products. Built with HTML, CSS, JavaScript, and PHP.</p>
+      </div>
+      <div class="project">
+        <h3>Project 3: Blogging Platform</h3>
+        <p>A blogging platform for sharing articles and blog posts. Built with HTML, CSS, JavaScript, and Node.js.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
